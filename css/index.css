@@ -208,6 +208,7 @@ footer nav a {
 .card-section {
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between
 }
 
 .card {
@@ -216,6 +217,7 @@ footer nav a {
     justify-content: space-between;
     max-width: 50%;
     padding: 15px;
+    border-bottom: 1px dotted black;
 }
 
 .card img {
@@ -227,7 +229,11 @@ button {
     padding: 8px 20px;
     border-radius: 6px;
     background: white;
-    border: 1px solid black;
+    border: 2px solid black;
     margin: 10px 0;
     cursor: pointer;
+}
+
+.last {
+    margin: 30px 0;
 }
