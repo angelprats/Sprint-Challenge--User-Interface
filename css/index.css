@@ -197,6 +197,13 @@ footer nav a {
 /* about page styling */
 
 
+.header-nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
 .title {
     margin: 25px;
 }
